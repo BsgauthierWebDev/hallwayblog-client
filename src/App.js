@@ -1,5 +1,5 @@
 import {createBrowserRouter, RouterProvider, Route, Outlet} from 'react-router-dom';
-import Create from './pages/Create';
+import New from './pages/New';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Login from './pages/Login';
@@ -34,15 +34,15 @@ const router = createBrowserRouter([
       },
 
       {
-        path: '/create',
-        element: <Create />,
+        path: '/new',
+        element: <New />,
       },
     ]
   },
 
   {
-    path: '/create',
-    element: <Create />
+    path: '/new',
+    element: <New />
   },
 
   {
