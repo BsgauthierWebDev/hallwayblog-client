@@ -6,6 +6,7 @@ import Login from './pages/Login';
 import NavBar from './components/NavBar';
 import Post from './pages/Post';
 import Register from './pages/Register';
+import './style.scss';
 
 const Layout = () => {
   return (
